@@ -1,4 +1,4 @@
-# Issue Repro: [link](#TODO)
+# Issue Repro: [link](https://github.com/vanilla-extract-css/vanilla-extract/issues/1636)
 
 This is an issue reproduction for `@vanilla-extract/vite-plugin` where file watch ignore patterns are [not inherited by the compiler](https://github.com/vanilla-extract-css/vanilla-extract/blob/e2c439ffa96dce570f2d472d2ca6ee40c69e3ee9/packages/compiler/src/compiler.ts#L113-L113), sometimes resulting in 45sec+ startup times.
 
